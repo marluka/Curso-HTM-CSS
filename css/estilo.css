@@ -24,6 +24,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p {
+  font-size: var(--normal);
+}
+
 nav {
   display: flex;
   background-color: #1d252c;
@@ -31,24 +35,31 @@ nav {
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  min-height: 60px;
 }
 
 nav ul {
   display: flex;
 }
 
-nav li {
+nav ul li {
   padding-left: 20px;
   list-style: none;
 }
 
-nav li a {
+nav a {
   color: var(--white-color);
   text-decoration: none;
+  font-size: var(--normal);
 }
 
-nav li a:hover {
+nav a:hover {
   color: orange;
+}
+
+hr {
+  opacity: 0.2;
 }
 
 /* ------------------------- Main section ------------------------- */
@@ -58,27 +69,31 @@ nav li a:hover {
   text-align: center;
 }
 
+/* ------------------------- products ------------------------- */
+
 .products {
   background-image: url("../images/curve.png");
-  max-height: 50px;
+  height: 95px;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center top;
-  padding: 20%;
+  padding: 15%;
   display: flex;
 }
 
 .product {
   padding: var(--space);
-  margin-top: -240px;
+  margin-top: -226px;
 }
 
-.product .content {
+.content {
   background-color: var(--white-color);
-  padding: var(--space);
+  padding: 20px;
   box-shadow: var(--box);
+  border-radius: 5px;
 }
 
-.img_content {
+.image-product {
   text-align: center;
 }
 
@@ -95,4 +110,59 @@ nav li a:hover {
 
 .main_button:hover {
   background-color: #5e9e22;
+}
+
+/* Beneficios */
+.beneficios {
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio {
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img {
+  max-height: 100px;
+}
+
+.text_beneficio {
+  text-align: justify;
+}
+
+/* Mentions */
+.mentions {
+  display: flex;
+  padding: 5%;
+}
+.mention img {
+  width: 100%;
+}
+h2.mention_title {
+  text-align: center;
+}
+.mention {
+  padding: var(--space);
+}
+.content_mention {
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text {
+  padding: var(--space);
+}
+
+/* ------------------------------------------- Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: #1d252c;
+  padding: var(--space);
+  color: var(--white-color);
+}
+
+.footer a {
+  color: var(--white-color);
+  text-decoration: none;
 }
