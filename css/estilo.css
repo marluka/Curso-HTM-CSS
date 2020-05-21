@@ -152,7 +152,8 @@ h2.mention_title {
   padding: var(--space);
 }
 
-/* ------------------------------------------- Footer */
+/* ------------------------- Footer ------------------------- */
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -165,4 +166,26 @@ footer {
 .footer a {
   color: var(--white-color);
   text-decoration: none;
+}
+
+/* ------------------------- Reglas responsive ------------------------- */
+
+@media (max-width: 600px) {
+  .products {
+    display: inherit;
+    height: auto;
+  }
+
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section {
+    padding: 4%;
+  }
+
+  .beneficios,
+  .mentions {
+    display: inherit;
+  }
 }
