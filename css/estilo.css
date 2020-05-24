@@ -35,7 +35,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding: var(--space);
   min-height: 60px;
   background-color: var(--green-color);
