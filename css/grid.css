@@ -1,0 +1,60 @@
+.container {
+  max-width: 900px; /* tamaño maximo de la rejilla */
+  margin: auto; /* para que ae alinee al centro */
+  border: 1px solid red;
+}
+
+/* se encarga de configurar las colomnas en horizontal */
+.row {
+  display: flex;
+}
+
+/* Dar tamaño a las columnas */
+.col-1 {
+  border: 1px solid blue;
+  width: calc(100% / 12);
+}
+.col-2 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 3);
+}
+.col-4 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  border: 1px solid blue;
+  width: calc(100% / 12 * 12);
+}
