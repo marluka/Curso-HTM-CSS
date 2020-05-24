@@ -6,10 +6,12 @@
 :root {
   --green-color: #7acc2d;
   --white-color: white;
+  --black-color: #313337;
   /* Tipografía */
   --normal: 12px;
   /* Espaciado */
   --space: 10px;
+  --space-2: 20px;
   /* Box Shadow */
   --box: 0 0 3px #c1bcbc;
 }
@@ -20,8 +22,9 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-family: helvetica;
   font-size: var(--normal);
-  font-family: "Open Sans", sans-serif;
+  color: var(--black-color);
 }
 
 p {
@@ -30,13 +33,12 @@ p {
 
 nav {
   display: flex;
-  background-color: #1d252c;
-  padding: var(--space);
-  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: var(--space);
   min-height: 60px;
+  background-color: var(--green-color);
 }
 
 nav ul {
@@ -55,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  color: orange;
+  color: var(--white-color);
 }
 
 hr {
@@ -136,18 +138,23 @@ hr {
   display: flex;
   padding: 5%;
 }
+
 .mention img {
   width: 100%;
 }
+
 h2.mention_title {
   text-align: center;
 }
+
 .mention {
   padding: var(--space);
 }
+
 .content_mention {
   box-shadow: 0px 0 2px 1px #e6e5e9;
 }
+
 .mention .text {
   padding: var(--space);
 }
