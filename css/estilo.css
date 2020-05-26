@@ -158,6 +158,30 @@ h2.mention_title {
   padding: var(--space);
 }
 
+.col-img {
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+/* ------------------------- Venta ------------------------- */
+
+.container-title {
+  padding: 20px;
+}
+
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago_img {
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
 /* ------------------------- Footer ------------------------- */
 
 footer {
