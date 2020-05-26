@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav ul li {
-  padding-left: 20px;
+  padding-left: var(--space-2);
   list-style: none;
 }
 
@@ -90,7 +90,7 @@ hr {
 
 .content {
   background-color: var(--white-color);
-  padding: 20px;
+  padding: var(--space-2);
   box-shadow: var(--box);
   border-radius: 5px;
 }
@@ -107,7 +107,8 @@ hr {
   color: var(--white-color);
   border: 0;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
+  border-bottom: 3px solid #45741a;
 }
 
 .main_button:hover {
@@ -174,7 +175,7 @@ h2.mention_title {
 .modulo_pago {
   background-color: var(--white-color);
   box-shadow: var(--box);
-  padding: var(--space);
+  padding: var(--space-2);
 }
 
 .modulo_pago_img {
@@ -193,6 +194,17 @@ h2.mention_title {
   border: 1px solid #dbdbe2;
   border-radius: 5px;
 }
+
+/* .modulo_pago button {
+  background: #7acc2d;
+  color: var(--white-color);
+  width: 100%;
+  margin-top: var(--space-2);
+  padding: var(--space);
+  border: none;
+  border-radius: 5px;
+  border-bottom: 5px solid #60a024;
+} */
 
 /* ------------------------- Footer ------------------------- */
 
