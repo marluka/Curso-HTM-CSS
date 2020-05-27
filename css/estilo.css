@@ -41,6 +41,16 @@ nav {
   background-color: var(--green-color);
 }
 
+nav a {
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: var(--normal);
+}
+
+nav a:hover {
+  color: var(--white-color);
+}
+
 nav ul {
   display: flex;
 }
@@ -48,16 +58,6 @@ nav ul {
 nav ul li {
   padding-left: var(--space-2);
   list-style: none;
-}
-
-nav a {
-  color: var(--white-color);
-  text-decoration: none;
-  font-size: var(--normal);
-}
-
-nav a:hover {
-  color: var(--white-color);
 }
 
 hr {
